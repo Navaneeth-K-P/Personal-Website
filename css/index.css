@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.sky{
+	height: 100vh;
+	width: 100%;
+	margin: 0px;
+	top:0;
+	left: 0;
+	background-image: url("sky.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sun{
+	position: absolute;
+	width: 1268px;
+	height: 714px;
+	left: 140px;
+	top: 75px;
+	background-image: url(sun.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bhill{
+	position: absolute;
+	width: 1035px;
+	height: 276px;
+	left: 0px;
+	top: 478px;
+
+	background-image: url(backhill.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.fhill{
+	position: absolute;
+	width: 920px;
+	height: 343px;
+	right:0px;
+	top: 411px;
+	background-image: url(fronthill.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.treeback{
+	position: absolute;
+	width: 1519px;
+	height: 100%;
+	left: 0px;
+	top: 17px;
+
+	background-image: url(lastrow.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.treemid{
+	position: absolute;
+	width: 1519px;
+	height: 100%;
+	left: 0px;
+	top: 17px;
+	background-image: url(Cliff_for_anim.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.treefront{
+	position: absolute;
+	width: 1519px;
+	height: 100%;
+	left: 0px;
+	top: 17px;
+	background-image: url(frontrow.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cliff{
+	position: absolute;
+	width: 1379px;
+	height: 775px;
+	left: 0px;
+	top: -4px;
+	background-image: url(cliff.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.man{
+	position: absolute;
+	width: 1379px;
+	height: 775px;
+	left: 0px;
+	top: -5px;
+	background-image: url(man.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.shadow{
+	position: absolute;
+	width: 1379px;
+	height: 775px;
+	left: 0px;
+	top: -5px;
+	background-image: url(shadow.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.crows{
+	position: absolute;
+	width: 1379px;
+	height: 775px;
+	left: 0px;
+	top: -5px;
+	background-image: url(crows.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+a{
+	position: absolute;
+	width: 150px;
+	height: 49px;
+	left: 975px;
+	top: 17px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 33px;
+
+	color: rgba(22, 22, 22, 0.71);
+
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
