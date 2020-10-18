@@ -1,14 +1,15 @@
 html, body {
   height: 100%;
   margin: 0;
+  background-color: white;
 }
 
 .sky{
 	height: 100vh;
 	width: 100%;
 	margin: 0px;
-	top:0;
-	left: 0;
+	top:0px;
+	left: 0px;
 	background-image: url("sky.png");
 	background-size: cover;
 	background-position: center;
@@ -17,10 +18,10 @@ html, body {
 
 .sun{
 	position: absolute;
-	width: 1268px;
-	height: 714px;
-	left: 140px;
-	top: 75px;
+	width: 100%;
+	height: 100vh;
+	top: 0px;
+	left: 0px;
 	background-image: url(sun.png);
 	background-size: cover;
 	background-position: center;
@@ -29,12 +30,12 @@ html, body {
 
 .bhill{
 	position: absolute;
-	width: 1035px;
-	height: 276px;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: 478px;
+	top: 0px;
 
-	background-image: url(backhill.png);
+	background-image: url(backhill1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -42,11 +43,11 @@ html, body {
 
 .fhill{
 	position: absolute;
-	width: 920px;
-	height: 343px;
+	width: 100%;
+	height: 100vh;
 	right:0px;
-	top: 411px;
-	background-image: url(fronthill.png);
+	top: 0%;
+	background-image: url(fronthill1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -54,10 +55,10 @@ html, body {
 
 .treeback{
 	position: absolute;
-	width: 1519px;
-	height: 100%;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: 17px;
+	top: 0px;
 
 	background-image: url(lastrow.png);
 	background-size: cover;
@@ -67,10 +68,10 @@ html, body {
 
 .treemid{
 	position: absolute;
-	width: 1519px;
-	height: 100%;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: 17px;
+	top: 0px;
 	background-image: url(Cliff_for_anim.png);
 	background-size: cover;
 	background-position: center;
@@ -79,10 +80,10 @@ html, body {
 
 .treefront{
 	position: absolute;
-	width: 1519px;
-	height: 100%;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: 17px;
+	top: 0px;
 	background-image: url(frontrow.png);
 	background-size: cover;
 	background-position: center;
@@ -91,10 +92,10 @@ html, body {
 
 .cliff{
 	position: absolute;
-	width: 1379px;
-	height: 775px;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: -4px;
+	top: 0px;
 	background-image: url(cliff.png);
 	background-size: cover;
 	background-position: center;
@@ -103,10 +104,10 @@ html, body {
 
 .man{
 	position: absolute;
-	width: 1379px;
-	height: 775px;
-	left: 0px;
-	top: -5px;
+	width: 100%;
+	height: 100vh;
+	left: 0%;
+	top: 0px;
 	background-image: url(man.png);
 	background-size: cover;
 	background-position: center;
@@ -115,10 +116,10 @@ html, body {
 
 .shadow{
 	position: absolute;
-	width: 1379px;
-	height: 775px;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: -5px;
+	top: 0px;
 	background-image: url(shadow.png);
 	background-size: cover;
 	background-position: center;
@@ -127,27 +128,22 @@ html, body {
 
 .crows{
 	position: absolute;
-	width: 1379px;
-	height: 775px;
+	width: 100%;
+	height: 100vh;
 	left: 0px;
-	top: -5px;
+	top: 0px;
 	background-image: url(crows.png);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 
 a{
-	position: absolute;
-	width: 150px;
-	height: 49px;
-	left: 975px;
-	top: 17px;
 
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.5vw;
 	line-height: 33px;
 
 	color: rgba(22, 22, 22, 0.71);
@@ -159,6 +155,62 @@ a:link{
 }
 
 a:hover{
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
+  transition-delay: 0.1s;
+}
+
+ul{
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+
+li {
+
+  display: inline;
+  margin: 15px;
+}
+
+.content{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
